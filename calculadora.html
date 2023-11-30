@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<!DOCTYPE html>
+<html lang="pt--br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="./calculadora.css">
+</head>
+
+<body>
+    <div class="fundo">
+        <h1>calculador ZIKA</h1>
+        <div class="calculadora">
+            <h2>Calculadora</i></h2>
+            <p id="resultado"></p>
+            <table>
+                <tr>
+                    <td><button class="botao" id="limpa">C</td>
+                    <td><button class="botao" id="porcento">%</td>
+                    <td><button class="botao" id="seno">sin</button></td>
+                    <td><button class="botao" id="cos">cos</button></td>
+                    <td><button class="botao" id="tan">tan</button></td>
+                </tr>
+                <tr>
+                    <td><button class="botao" onclick="digitar(7)">7</button></td>
+                    <td><button class="botao" onclick="digitar(8)">8</button></td>
+                    <td><button class="botao" onclick="digitar(9)">9</button></td>
+                    <td><button class="botao" id="sub">-</button></td>
+                    <td><button class="botao" id="potencia">^</button></td>
+                </tr>
+                <tr>
+                    <td><button class="botao" onclick="digitar(4)">4</button></td>
+                    <td><button class="botao" onclick="digitar(5)">5</button></td>
+                    <td><button class="botao" onclick="digitar(6)">6</button></td>
+                    <td><button class="botao" id="mais">+</button></td>
+                    <td><button class="botao" id="raiz">√</button></td>
+                </tr>
+                <tr>
+                    <td><button class="botao" onclick="digitar(1)">1</button></td>
+                    <td><button class="botao" onclick="digitar(2)">2</button></td>
+                    <td><button class="botao" onclick="digitar(3)">3</button></td>
+                    <td><button class="botao" id="multi">*</button></td>
+                    <td rowspan="2"><button class="botao" id="igual" style="height: 106px;">=</button></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><button class="botao" onclick="digitar(0)" style="width: 106px;">0</button></td>
+                    <td><button class="botao" onclick="digitar('.')">.</button></td>
+                    <td><button class="botao" id="divisao">/</button></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <script src="./calc.js"></script>
+</body>
+
+</html>
+
+</html>
