@@ -26,8 +26,8 @@
             <table>
                 <tr>
                     <td><button class="botao" id="limpa">C</td>
-                    <td><button class="botao" id="porcento">%</td>
-                    <td><button class="botao" id="seno">sin</button></td>
+                    <td><button class="botao" id="porcento" onclick="digitar('%')">%</td>
+                    <td><button class="botao" id="seno" onclick="digitar('sin()')">sin</button></td>
                     <td><button class="botao" id="cos">cos</button></td>
                     <td><button class="botao" id="tan">tan</button></td>
                 </tr>
@@ -35,27 +35,27 @@
                     <td><button class="botao" onclick="digitar(7)">7</button></td>
                     <td><button class="botao" onclick="digitar(8)">8</button></td>
                     <td><button class="botao" onclick="digitar(9)">9</button></td>
-                    <td><button class="botao" id="sub">-</button></td>
-                    <td><button class="botao" id="potencia">^</button></td>
+                    <td><button class="botao" id="sub" onclick="digitar('-')">-</button></td>
+                    <td><button class="botao" id="potencia" onclick="digitar('^')">^</button></td>
                 </tr>
                 <tr>
                     <td><button class="botao" onclick="digitar(4)">4</button></td>
                     <td><button class="botao" onclick="digitar(5)">5</button></td>
                     <td><button class="botao" onclick="digitar(6)">6</button></td>
-                    <td><button class="botao" id="mais">+</button></td>
+                    <td><button class="botao" id="mais" onclick="digitar('+')">+</button></td>
                     <td><button class="botao" id="raiz">√</button></td>
                 </tr>
                 <tr>
                     <td><button class="botao" onclick="digitar(1)">1</button></td>
                     <td><button class="botao" onclick="digitar(2)">2</button></td>
                     <td><button class="botao" onclick="digitar(3)">3</button></td>
-                    <td><button class="botao" id="multi">*</button></td>
+                    <td><button class="botao" id="multi" onclick="digitar('*')" >*</button></td>
                     <td rowspan="2"><button class="botao" id="igual" style="height: 106px;">=</button></td>
                 </tr>
                 <tr>
                     <td colspan="2"><button class="botao" onclick="digitar(0)" style="width: 106px;">0</button></td>
                     <td><button class="botao" onclick="digitar('.')">.</button></td>
-                    <td><button class="botao" id="divisao">/</button></td>
+                    <td><button class="botao" id="divisao" onclick="digitar('/')">/</button></td>
                 </tr>
             </table>
         </div>
