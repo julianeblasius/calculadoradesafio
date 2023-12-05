@@ -17,27 +17,3 @@ igual.addEventListener("click", function() {
     resultado = eval(resultado);
     document.getElementById("resultado").innerHTML = resultado;
 })
-
-let sin = document.querySelector("#seno");
-sin.addEventListener("click", function() {
-    let resultado = document.getElementById("resultado").innerHTML; 
-    resultado = `Math.sin(${resultado})`
-    resultado = eval(resultado);
-    document.getElementById("resultado").innerHTML = resultado;
-})
-
-let cos = document.querySelector("#cos");
-cos.addEventListener("click", function() {
-    let resultado = document.getElementById("resultado").innerHTML; 
-    resultado = `Math.cos(${resultado})`
-    resultado = eval(resultado);
-    document.getElementById("resultado").innerHTML = resultado;
-})
-
-let tan = document.querySelector("#tan");
-tan.addEventListener("click", function() {
-    let resultado = document.getElementById("resultado").innerHTML; 
-    resultado = `Math.tan(${resultado})`
-    resultado = eval(resultado);
-    document.getElementById("resultado").innerHTML = resultado;
-})
