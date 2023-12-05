@@ -4,15 +4,15 @@ function digitar(a) {
 }
 
 let limpar = document.querySelector("#limpa");
-limpar.addEventListener("click", function() {
+limpar.addEventListener("click", function () {
     resultado = ""
     document.getElementById("resultado").innerHTML = resultado;
 })
 
 let igual = document.querySelector("#igual");
-igual.addEventListener("click", function() {
+igual.addEventListener("click", function () {
     let resultado = document.getElementById("resultado").innerHTML;
-    resultado = resultado.replace("^", "**").replace("%", "/100")
+    resultado = resultado.replace("^", "**").replace("%", "/100*")
     console.log(resultado)
     resultado = eval(resultado);
     document.getElementById("resultado").innerHTML = resultado;
